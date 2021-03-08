@@ -1,0 +1,30 @@
+/* css Document */
+#menu ul{
+    list-style: none; /*quitar estilo de lista*/
+    margin: 0;
+    padding: 0;
+}
+#menu #item{
+float: left; /*para que el menu flote a la izquierda o no quede vertical*/
+}
+#menu #item a{
+background: rgba(244, 239, 245, 0.979); /*color de fondo*/
+color: rgb(22, 21, 21); /*color de letra*/
+padding: 25px 40px;
+display: block; /*para colocarlo en forma de caja*/
+font-family: Arial, Helvetica, sans-serif; /*tipo de letra*/
+font-size: 16px; /*pixeles*/
+text-decoration: none; /*quitar subrrado a las letras*/
+
+}
+#menu #desple{
+display: none; /* codigo que realiza que se oculte el menu desplegable*/
+position: absolute; /* codigo que no deja que el nenu de mueva*/
+min-width: 135px; /* codigo que genera el ancho del menu desplegable parte inferior*/
+
+}
+
+#menu #item:hover #desple {
+  display: block; /* codigo que realiza el despliegue del menu y  se oculte*/
+
+}
