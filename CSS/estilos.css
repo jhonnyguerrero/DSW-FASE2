@@ -1,30 +1,22 @@
 /* css Document */
 #menu ul{
-    list-style: none; /*quitar estilo de lista*/
+    list-style: none; /*quitar estilo de lista las puntos negros*/
     margin: 0;
     padding: 0;
 }
-#menu #item{
-float: left; /*para que el menu flote a la izquierda o no quede vertical*/
+/*nos identifica que en el menu existne unos identificadores llamados item*/
+#menu #item {
+
+    float: left; /*nos permite colocar el menu en forma horizontal*/
+
 }
+/*cambiar el color a la letra que esta en el menu con la etiqueta a*/
 #menu #item a{
-background: rgba(244, 239, 245, 0.979); /*color de fondo*/
-color: rgb(22, 21, 21); /*color de letra*/
-padding: 25px 40px;
-display: block; /*para colocarlo en forma de caja*/
-font-family: Arial, Helvetica, sans-serif; /*tipo de letra*/
-font-size: 16px; /*pixeles*/
-text-decoration: none; /*quitar subrrado a las letras*/
-
-}
-#menu #desple{
-display: none; /* codigo que realiza que se oculte el menu desplegable*/
-position: absolute; /* codigo que no deja que el nenu de mueva*/
-min-width: 135px; /* codigo que genera el ancho del menu desplegable parte inferior*/
-
-}
-
-#menu #item:hover #desple {
-  display: block; /* codigo que realiza el despliegue del menu y  se oculte*/
-
+background-color: cornsilk; /*cambia el color del fondo menu*/
+color: darkred; /*color letra menu*/
+padding:20px 128px; /*margen por dentro de la caja menu*/
+display: block; /*forma a la caja*/
+font-family: Arial, Helvetica, sans-serif;/*tipo letra*/
+font-size: 22px; /*tamaño letra*/
+text-decoration: none;/*le quita el subrayado a las letra */
 }
